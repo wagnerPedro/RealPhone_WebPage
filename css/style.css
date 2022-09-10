@@ -13,3 +13,45 @@
     overflow: hidden;
     background: linear-gradient(to right, #9c27b0, #8ecdff);
 }
+
+.logo {
+    flex-basis: 20%;
+}
+
+.logo > img {
+    width: 150px;
+}
+
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.information {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
